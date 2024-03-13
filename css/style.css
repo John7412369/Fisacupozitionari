@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(rgba(28, 91, 37, 0.6), rgba(153, 137, 137, 0.6), rgba(73, 111, 73, 0.6)),url(https://media.istockphoto.com/id/1053390238/ro/fotografie/livada-de-mere-la-apus.jpg?s=612x612&w=0&k=20&c=7WwTpXHkFye6ACrxMZ10NnzumjPJnN5A67JEtAJxak8=);
+    min-height: 89vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+
+
+header {
+    background: radial-gradient(rgb(17, 113, 6), rgb(12, 174, 147));
+    height: 65px;
+    width: 100%;
+}
+
+
+
+header h1 {
+    color: white;
+    margin-left: 50px;
+    padding-top: 15px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 35px;
+    margin-top: 0;
+
+}
+
+
+
+.continutului {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px;
+}
+
+.continutului p {
+    text-indent: 17px;
+    padding-top: 19px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    word-spacing: 4px;
+    margin-top: 0;
+
+}
+
+.titlu {
+    text-align: center;
+    margin-top: 48px;
+}
+
+.titlu h3 {
+    font-size: 50px;
+    margin-bottom: 0;
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Architects Daughter', cursive;
+    color: rgb(239, 14, 14);
+    font-weight: 780px;
+    text-shadow: 0 0 25px rgb(35, 78, 10);
+}
+
+footer p {
+    margin: 0;
+    font-size: 23px;
+    font-weight: 750;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+footer {
+    background: radial-gradient(rgb(17, 113, 6), rgb(12, 174, 147));
+    color: #120202;
+    width: 100%;
+    height: 61px;
+    padding-top: 15px;
+    clear: both;
+}
+
+.continutului h4 {
+    font-size: 32px;
+    text-align: center;
+    text-shadow: 0 0 15px rgb(2, 154, 18);
+}
+
+img {
+    position: fixed;
+    z-index: 2;
+    top: 5px;
+    right: 5px;
+    width: 120px;
+    filter: drop-shadow(150px 150px 150px rgb(221, 255, 2));
+}
+
+.parinte {
+   
+    position: relative;
+    background-color: rgb(25, 128, 202);
+    float: right;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 14px;
+    margin-bottom: 20px;
+    clear: both;
+    width: 230px;
+    height: 231px;
+}
+ol{
+    font-size: 22px;
+}
+
+.copil {
+    position: absolute;
+    background-color: whitesmoke;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    right: 5px;
+    bottom: 5px;
+}
+@media screen and (max-width: 800px){
+    body {
+        background: radial-gradient(rgba(28, 91, 37, 0.6), rgba(153, 137, 137, 0.6), rgba(73, 111, 73, 0.6)),url(https://media.istockphoto.com/id/1053390238/ro/fotografie/livada-de-mere-la-apus.jpg?s=612x612&w=0&k=20&c=7WwTpXHkFye6ACrxMZ10NnzumjPJnN5A67JEtAJxak8=);
+        min-height: 89vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 0;
+    }
+    header h1 {
+        font-size: 15px;
+    }
+    
+    
+    .continutului p {
+    
+        font-size: 15px;
+    
+    
+    }
+    
+    .titlu h3 {
+        font-size: 20px;
+        font-weight: 390px;
+        
+    }
+    footer p {
+        
+        font-size: 11px;
+        
+        
+    }
+    
+    .continutului h4 {
+        font-size: 16px;
+        text-align: center;
+        
+    }
+    
+    img {
+        position: fixed;
+        z-index: 2;
+        top: 5px;
+        right: 5px;
+        width: 120px;
+        filter: drop-shadow(150px 150px 150px rgb(221, 255, 2));
+    }
+    
+    .parinte {
+        font-size: 11px;
+    
+    }
+    ol{
+        font-size: 11px;
+    }
+    
+    .copil {
+        
+        font-size: 11px;
+        
+    }
+    
+    
+
+}
+
